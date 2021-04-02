@@ -13,6 +13,11 @@
         Mohammad Ali
        </h3>
      </div>
+     <div class="col-4"></div>
+     <div class="col-4 text-center">
+       <img src="img/mali.jpg" alt="Mohammad Ali" class="img-rounded" width="500" height="500">
+     </div>
+     <div class="col-4"></div>
    </div>
  </div>
 
