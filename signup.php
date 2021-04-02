@@ -143,7 +143,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="form-group">
                         <label>Name</label>
                         <input type="text" name="name" class="form-control" value="" required>
-                        <span class="help-block"><?php echo $name_err; ?></span>
+                        <span class="text-danger"><?php echo $name_err; ?></span>
                     </div>
                     <div class="text-danger">
                         <?php    ?>
@@ -151,11 +151,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="form-group">
                         <label>User Name</label>
                         <input type="text" name="username" class="form-control" value="" required>
-
+                        <span class="text-danger"><?php echo $username_err; ?></span>
                     </div>
-                    <div class="text-danger">
-                        <?php echo $username_err; ?>
-                    </div>
+                    
 
                     <div class="form-group">
                         <label>Email</label>

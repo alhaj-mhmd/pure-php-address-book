@@ -46,7 +46,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
 
                 // Attempt select query execution
                 try {
-                    $sql = "SELECT * FROM contacts WHERE user_id = '$user_id' ";
+                    $sql = "SELECT * FROM contacts WHERE user_id = '$user_id'  ORDER BY last_name ASC  ";
                     $result = $pdo->query($sql);
                     if ($result->rowCount() > 0) {
                         echo "<div class='table-responsive'>";
